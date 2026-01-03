@@ -30,7 +30,7 @@ Modern deep learning models often exhibit **double descent**, where test error w
 The results show that double descent requires sufficiently strong and stable signal: as noise increases, the interpolation peak attenuates and eventually disappears, and simpler models dominate. In equity return prediction, test error curves are nearly flat across four orders of magnitude in model size, and no configuration outperforms a naive mean benchmark. These findings provide empirical evidence that modern “bigger is better” intuitions do not generalize to low-signal, non-stationary settings and that classical model selection remains essential in financial forecasting.
 
 
-#### Machine Learning–Based Portfolio Optimization with Sparse Mean-Variance Allocation
+#### Portfolio Optimization
 
 *Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian*
 
