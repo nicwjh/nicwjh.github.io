@@ -34,7 +34,9 @@ The results show that double descent requires sufficiently strong and stable sig
 
 *Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian (HKS).*
 
+<!--
 *Code:* [GitHub – Portfolio Optimization](https://github.com/nicwjh/Portfolio-Optimization)
+-->
 
 _Abstract:_  
 This project develops a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
@@ -47,7 +49,9 @@ The results illustrate how modern machine learning forecasts can be systematical
 
 *Macro Research Intern, Verition Fund Management. Supervised by Nisarg Kamdar (Portfolio Manager, Fixed Income & Macro).*
 
+<!--
 *Code:* [GitHub – NFP Forecasting](https://github.com/nicwjh/nfp-forecasting)
+-->
 
 _Abstract:_  
 This project develops a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll (NFP) Total Change, a high-impact macroeconomic release central to rates and macro trading. Using historical economist forecasts, I construct ensemble point forecasts and calibrated predictive distributions designed for trading and risk management rather than purely statistical accuracy.
@@ -59,7 +63,9 @@ With [Priscilla Clark](https://priscillaoclark.github.io/)
 
 *Research Project for 15.S08 Applied Natural Language Processing, MIT. Supervised by Dr. Mike Chen and Dr. Andrew Zachary (MIT).*
 
+<!--
 *Code:* [GitHub – SVB Regulatory Impact NLP](https://github.com/priscillaoclark/svb-regulatory-impact-nlp)
+-->
 
 _Abstract:_  
 This project studies how U.S. banking regulatory priorities shifted following the 2023 collapse of Silicon Valley Bank (SVB). We test the hypothesis that regulatory focus intensified around liquidity, capital adequacy, and the oversight of small and mid-sized banks in the aftermath of the crisis. Using regulatory documents from Regulations.gov, we analyze proposed and finalized rules issued by major financial regulators in the 18 months before and after the collapse.
