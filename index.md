@@ -20,7 +20,7 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science and
 
 #### Double Descent in Financial Time Series
 
-*Research project for 6.7960 Deep Learning, MIT.*
+*Research project for 6.7960 Deep Learning, MIT. Course supervised by Dr. Sara Beery, Dr. Kaiming He, Dr. Omar Khattab (MIT).*
 
 *Blog post:* [Double Descent in Financial Time Series](http://nicwong.com/double-descent-in-financial-time-series/)
 
@@ -32,7 +32,7 @@ The results show that double descent requires sufficiently strong and stable sig
 
 #### Portfolio Optimization
 
-*Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian*
+*Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian (HKS).*
 
 *Code:* [GitHub – Portfolio Optimization](https://github.com/nicwjh/Portfolio-Optimization)
 
