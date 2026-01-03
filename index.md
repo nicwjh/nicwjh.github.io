@@ -6,7 +6,7 @@ layout: homepage
 
 I'm a graduate student at MIT where most of my work has been focused on the intersection between finance and applied ML. Broadly, I'm interested in leveraging quantitative methods to study non-trivial research questions with clear economic relevance and real-world impact. 
 
-Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science and Economics.   
+Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.S. in Economics, and minor in Statistics and Analytics.   
 
 ## Research Interests
 
