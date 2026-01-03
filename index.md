@@ -11,6 +11,7 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.
 ## Research Interests
 
 - **Primary:** algorithmic economics, empirical finance, asset pricing, computational methods
+- **Other:** behavioral finance
 
 ## Research
 
