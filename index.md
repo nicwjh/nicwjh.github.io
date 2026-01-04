@@ -60,8 +60,9 @@ This project develops a fully out-of-sample forecasting framework for U.S. Non-F
 The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
 
 #### Large Language Models in Fundamental Equity Research
+With Yilu Pan, Xizhi Fang, and Christelle Saad
 
-*Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). With Yilu Pan, Xizhi Fang, and Christelle Saad. Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
+*Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
 
 *Poster:*: [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
 
