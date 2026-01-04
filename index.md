@@ -63,8 +63,10 @@ The approach combines adaptive forecast-combination methods—including inverse-
 
 *Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). With Yilu Pan, Xizhi Fang, and Christelle Saad.*
 
+*Poster:*: [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
+
 _Abstract:_  
-This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard machine learning models.
+This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
 
 While LLMs alone do not consistently outperform simple benchmarks in predicting earnings changes, their outputs contain complementary information. When LLM-generated signals and embeddings are combined with financial statement data in downstream machine learning models, predictive performance improves and leads to economically meaningful portfolio results. Long-only portfolios formed using LLM-enhanced signals achieve higher alpha and information ratios than portfolios based on traditional factors or analyst forecasts. The findings suggest that LLMs add value by providing economic context and structure to raw accounting data, improving generalization in out-of-sample equity prediction tasks. 
 
