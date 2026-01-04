@@ -61,7 +61,7 @@ The approach combines adaptive forecast-combination methods—including inverse-
 
 #### Large Language Models in Fundamental Equity Research
 
-*Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). With Yilu Pan, Xizhi Fang, and Christelle Saad.*
+*Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). With Yilu Pan, Xizhi Fang, and Christelle Saad. Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
 
 *Poster:*: [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
 
