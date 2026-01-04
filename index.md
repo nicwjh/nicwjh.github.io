@@ -88,5 +88,5 @@ We apply three complementary NLP approaches: a naive keyword-based baseline, TFâ
 
 ## Other Links
 
-- [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
 - Research papers: [(1) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf); [(2) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf); [(3) SVB Collapseâ€”NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
+- [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
