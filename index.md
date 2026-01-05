@@ -40,7 +40,7 @@ The results show that double descent requires sufficiently strong and stable sig
 -->
 
 _Abstract:_  
-This project develops a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
+This project proposes a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
 
 Using daily equity data from November 2023 to November 2024, the optimized portfolio achieves substantially higher risk-adjusted performance than a market-capitalization-weighted NASDAQ-100 benchmark. While the benchmark delivers higher absolute returns during the sample period, the optimized portfolio exhibits significantly lower volatility and a Sharpe ratio of 2.23, representing roughly a 40% improvement over the benchmark. Forecasting results highlight the robustness of simple and non-parametric methods while ensembling mitigates model-specific bias.
 
@@ -59,7 +59,7 @@ This project develops a fully out-of-sample forecasting framework for U.S. Non-F
 
 The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
 
-#### Large Language Models in Fundamental Equity Research
+#### Large Language Models in Equity Research
 With Yilu Pan, Xizhi Fang, and Christelle Saad
 
 *Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
