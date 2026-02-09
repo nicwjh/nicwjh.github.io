@@ -10,8 +10,7 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.
 
 ## Research Interests
 
-- **Primary:** algorithmic economics, empirical finance, and applied AI/ML, particularly at the intersection of economics and computation.
-- **Other:** behavioral finance
+- **Primary:** algorithmic economics, empirical finance, computational methods, and applied AI/ML, particularly at the intersection of economics and computation.
 
 ## Research
 
