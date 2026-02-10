@@ -92,4 +92,4 @@ We apply three complementary NLP approaches: a naive keyword-based baseline, TFâ
 	- [(2) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf) 
 	- [(3) SVB Collapseâ€”NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
-- [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
+- News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
