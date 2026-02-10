@@ -85,11 +85,25 @@ This project studies how U.S. banking regulatory priorities shifted following th
 
 We apply three complementary NLP approaches: a naive keyword-based baseline, TF–IDF weighting, and BERTopic topic modeling. Across all methods, we find consistent evidence of a post-SVB pivot toward liquidity management, capital requirements, valuation practices, and systemic risk oversight. Topic models reveal a shift from broader regulatory themes pre-SVB to more concentrated attention on risk management, resolution frameworks, and financial stability post-SVB. The results provide empirical evidence that major financial crises are followed by measurable and systematic changes in regulatory discourse, and demonstrate how modern NLP tools can be used to study policy responses to financial instability at scale.
 
+#### Artificial Intelligence for Financial Analysis
+With Cathy Shan, Ahmed Wakrim, Maya Walcher, David Xiang, Iris Xiao, Jinghan Xu, and Rei Yamahara.
+
+*Joint Research Project (T. Rowe Price, MIT Sloan Proseminar in Capital Markets). Supervised by Mark Kritzman (MIT) and Sébastien Page (T. Rowe Price).*  
+*Deck:* [Artificial Intelligence for Financial Analysis](http://nicwong.com/assets/files/T-Rowe-Final-Deck.pdf)
+
+_Abstract:_  
+We study whether modern generative AI models can perform analyst-level equity research. Using Microsoft and Chipotle as representative case studies (diversified, multi-segment vs pure-play, single business), we design a three-layer evaluation framework that progressively increases data quality and prompting sophistication, and compare AI-generated reports to professional analyst outputs.
+
+Results show that richer inputs and structured prompting substantially improve report quality, including financial summaries, valuation, and investment recommendations. However, AI outputs still lack analytical depth, consistency, and contextual judgment relative to human analysts, especially for complex, diversified firms. The findings suggest that generative AI is best used as an analyst productivity tool rather than a replacement, augmenting routine financial analysis while human expertise remains critical for nuanced investment decisions.
+
+
+
 ## Other Links
 
 - Sample research papers: 
 	- [(1) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 	- [(2) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf) 
 	- [(3) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
+	- [(4) Artificial Intelligence for Financial Analysis[(https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
 - News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
