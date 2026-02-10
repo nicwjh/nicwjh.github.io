@@ -104,6 +104,6 @@ Results show that richer inputs and structured prompting substantially improve r
 	- [(1) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 	- [(2) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf) 
 	- [(3) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
-	- [(4) Artificial Intelligence for Financial Analysis[(https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
+	- [(4) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
 - News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
