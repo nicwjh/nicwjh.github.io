@@ -63,7 +63,7 @@ With Yilu Pan, Xizhi Fang, and Christelle Saad
 
 *Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
 
-*Poster:*: [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
+*Poster:* [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
 
 _Abstract:_  
 This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
