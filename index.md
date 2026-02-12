@@ -59,7 +59,7 @@ This project develops a fully out-of-sample forecasting framework for U.S. Non-F
 The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
 
 #### Large Language Models in Equity Research
-With Yilu Pan, Xizhi Fang, and Christelle Saad
+With Y. Pan, X. Fang, and C. Saad
 
 *Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
 
@@ -86,7 +86,8 @@ This project studies how U.S. banking regulatory priorities shifted following th
 We apply three complementary NLP approaches: a naive keyword-based baseline, TF–IDF weighting, and BERTopic topic modeling. Across all methods, we find consistent evidence of a post-SVB pivot toward liquidity management, capital requirements, valuation practices, and systemic risk oversight. Topic models reveal a shift from broader regulatory themes pre-SVB to more concentrated attention on risk management, resolution frameworks, and financial stability post-SVB. The results provide empirical evidence that major financial crises are followed by measurable and systematic changes in regulatory discourse, and demonstrate how modern NLP tools can be used to study policy responses to financial instability at scale.
 
 #### Artificial Intelligence for Financial Analysis
-With Cathy Shan, Ahmed Wakrim, Maya Walcher, David Xiang, Iris Xiao, Jinghan Xu, and Rei Yamahara.
+With C. Shan, A. Wakrim, M. Walcher, D. Xiang, I. Xiao, J. Xu, and R. Yamahara.
+
 
 *Joint Research Project (T. Rowe Price, MIT Sloan Proseminar in Capital Markets). Supervised by Mark Kritzman (MIT) and Sébastien Page (T. Rowe Price).*  
 *Deck:* [Artificial Intelligence for Financial Analysis](http://nicwong.com/assets/files/T-Rowe-Final-Deck.pdf)
