@@ -22,8 +22,9 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.
 
 *Research project for 6.7960 Deep Learning, MIT. Course supervised by Dr. Sara Beery, Dr. Kaiming He, Dr. Omar Khattab (MIT).*
 
-*Blog post:* [Double Descent in Financial Time Series](http://nicwong.com/double-descent-in-financial-time-series/)
-*Research Paper:* [Double Descent](https://nicwong.com/assets/files/DDiFTS_v1.pdf)
+*Blog post:* [Double Descent in Financial Time Series](http://nicwong.com/double-descent-in-financial-time-series/)      
+
+*Paper:* [Double Descent](https://nicwong.com/assets/files/DDiFTS_v1.pdf)
 
 _Abstract:_  
 Modern deep learning models often exhibit double descent, where test error worsens near the interpolation threshold but improves again in the overparameterized regime. While this phenomenon is well documented in high-signal domains such as vision and language, its relevance for financial time series, which are noisy and non-stationary, remains unclear. This project studies whether the benefits of overparameterization extend to low signal-to-noise environments.
@@ -33,11 +34,12 @@ The results show that double descent requires sufficiently strong and stable sig
 
 #### Portfolio Optimization
 
-*Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian (HKS).*
+*Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian (HKS).*         
 <!--
 *Code:* [GitHub – Portfolio Optimization](https://github.com/nicwjh/Portfolio-Optimization)
 -->
-*Research Paper:*[Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
+
+*Paper:*[Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 
 _Abstract:_  
 This project proposes a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
@@ -103,7 +105,7 @@ Results show that richer inputs and structured prompting substantially improve r
 ## Other Links
 
 - Sample research papers:
-	- [(1) Double Descent in Financial Time Series[(https://nicwong.com/assets/files/DDiFTS_v1.pdf) 
+	- [(1) Double Descent in Financial Time Series](https://nicwong.com/assets/files/DDiFTS_v1.pdf) 
 	- [(2) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 	- [(3) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf) 
 	- [(4) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
