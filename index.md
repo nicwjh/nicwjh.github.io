@@ -4,13 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a graduate student at MIT where most of my work has been focused on the intersection between finance and applied ML. Broadly, I am interested in using quantitative and algorithmic methods to study economic and financial systems with implications for markets and policy. 
+I am a graduate student at MIT broadly interested in computational and statistical methods for problems in economics and finance. My work spans optimization, statistical learning, causal inference, and forecasting, with applications to financial markets, policy evaluation, and economic decision-making.
 
 Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.S. in Economics, and minor in Statistics and Analytics.   
 
 ## Research Interests
 
-- **Primary:** algorithmic economics, empirical finance, computational methods, and applied AI/ML, particularly at the intersection of economics and computation.
+- **Primary:** computational methods, statistical inference, optimization, and machine learning, with applications to financial and economic systems.
 
 ## Research
 
