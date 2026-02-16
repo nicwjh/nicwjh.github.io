@@ -126,7 +126,7 @@ We compare four supervised regression methods for predicting Airbnb listing pric
 
 We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in liquid Treasury markets.
 
-#### Airbnb Review Helpfulness Classification via LLM Fine-Tuning
+#### Review Helpfulness Classification via LLM Fine-Tuning
 With C. Arraya, L.H. Cham, I. Sparrow, L. Yang, and T. Zhang
 
 *Research project for COMP 488 Data Science in Business, UNC.*       
