@@ -75,7 +75,7 @@ While LLMs alone do not consistently outperform simple benchmarks in predicting 
 
 
 #### Regulatory Response to the SVB Collapse: A Natural Language Processing Analysis
-With [Priscilla Clark](https://priscillaoclark.github.io/)
+With [P. Clark](https://priscillaoclark.github.io/)
 
 *Research Project for 15.S08 Applied Natural Language Processing, MIT. Supervised by Dr. Mike Chen and Dr. Andrew Zachary (MIT).*
 
