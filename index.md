@@ -100,6 +100,45 @@ We study whether modern generative AI models can perform analyst-level equity re
 
 Results show that richer inputs and structured prompting substantially improve report quality, including financial summaries, valuation, and investment recommendations. However, AI outputs still lack analytical depth, consistency, and contextual judgment relative to human analysts, especially for complex, diversified firms. The findings suggest that generative AI is best used as an analyst productivity tool rather than a replacement, augmenting routine financial analysis while human expertise remains critical for nuanced investment decisions.
 
+#### Other Projects
+
+#### Predicting Stock Price Movements from Social Media Sentiment
+With J. Bourseau, C. Casper, and L. Valette
+
+*Research project for 15.776 Intensive Hands-on Deep Learning, MIT.*
+
+We frame next-day stock price direction as a binary classification task using aggregated daily tweet data for 11 publicly traded companies. We compare TF-IDF baselines (Logistic Regression, MLP) against BERT with a trained MLP head. All models perform near chance (AUC-ROC ≈ 0.50), with BERT underperforming simpler baselines. Results highlight the low signal-to-noise ratio in social media text for short-term prediction and the failure of general-purpose language representations to transfer to financial forecasting without domain-specific adaptation.
+
+#### Multi-Factor Growth Stock Selection
+With C. Sun, H. Zhang, and M. Goyal
+
+*Research project for 15.433 Financial Markets, MIT.*
+
+We develop a quarterly sliding-window linear regression framework to predict forward 12-month returns for Russell 1000 Growth Index constituents using five growth-oriented factors. Top-decile portfolios constructed from predicted returns achieve a 71.4% hit ratio and 2.14% annualized excess return over the benchmark. A long-short extension improves performance to a 0.61 Sharpe ratio and 80% hit ratio. Debt-to-Equity and Price-to-Book are identified as the most consistently significant predictors.
+
+#### Airbnb Price Prediction
+*Research project for ECON 573 Machine Learning/Econometrics, UNC Chapel Hill.*
+
+We compare four supervised regression methods for predicting Airbnb listing prices across major U.S. cities: forward selection, LASSO, polynomial regression, and gradient boosting. Boosting achieves the lowest test RMSE (85.11), outperforming linear methods by approximately 15%. A robust feature selection process across all models identifies maximum occupancy indicators (bathrooms, accommodates) and geographic features (latitude, longitude, city) as the most significant predictors of listing price.
+
+#### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
+*Research project for 15.437 Options & Futures, MIT.*
+
+We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in liquid Treasury markets.
+
+#### Airbnb Review Helpfulness Classification via LLM Fine-Tuning
+With C. Arraya, L.H. Cham, I. Sparrow, L. Yang, and T. Zhang
+
+*Research project for COMP 488 Data Science in Business, UNC.*       
+
+We fine-tune RoBERTa-base to classify Airbnb reviews into three helpfulness tiers (A/B/C) based on specificity, decision-making advice, and reviewer expertise. Training labels are generated synthetically using GPT-4 Turbo on 4,500 scraped reviews, while the test set of 500 reviews is manually labeled by majority vote. The fine-tuned classifier achieves 64.6% accuracy and 0.59 F1 on the human-labeled test set, with the strongest precision on least-helpful reviews and the weakest recall on most-helpful reviews.
+
+#### Diabetes Classification with Limited Feature Sets
+With H. Brinklert
+
+*Research project for COMP 562 Honors Machine Learning, UNC Chapel Hill.*
+
+We compare five classifiers (logistic regression, Naive Bayes, KNN, decision trees, SVM) for binary diabetes classification using both a full 21-feature set and a reduced 7-feature subset identified through LASSO, sequential selection, and domain knowledge. Models with fewer features achieve comparable performance to full-feature models across all classifiers. Naive Bayes and SVM perform best with limited inputs, while decision trees show signs of overfitting with the full feature set, achieving better results with fewer predictors.
 
 
 ## Other Links
@@ -111,4 +150,11 @@ Results show that richer inputs and structured prompting substantially improve r
 	- [(4) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
 	- [(5) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
-- News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/); [History](https://phibetakappa.web.unc.edu/history/)
+- Other projects:
+        - [(1) Predicting Stock Price Movements from Social Media Sentiment](https://nicwong.com/assets/files/HODL_report.pdf)
+        - [(2) Multi-Factor Growth Stock Selection](https://nicwong.com/assets/files/AlphaGrowth__Identifying_Winning_Growth_Stocks.pdf)
+        - [(3) Airbnb Price Prediction](https://nicwong.com/assets/files/Nicholas_Wong_ECON573_FinalReport_.pdf)
+        - [(4) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
+        - [(5) Airbnb Review Helpfulness Classification via LLM Fine-Tuning (Deck)](https://nicwong.com/assets/files/488_Final_Presentation__1_.pdf)
+        - [(6) Diabetes Classification with Limited Feature Sets](https://nicwong.com/assets/files/COMP562H_Nicholas_Hannes_Final_Report.pdf)
+- News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/)
