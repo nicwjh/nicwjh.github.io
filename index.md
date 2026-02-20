@@ -100,6 +100,11 @@ We study whether modern generative AI models can perform analyst-level equity re
 
 Results show that richer inputs and structured prompting substantially improve report quality, including financial summaries, valuation, and investment recommendations. However, AI outputs still lack analytical depth, consistency, and contextual judgment relative to human analysts, especially for complex, diversified firms. The findings suggest that generative AI is best used as an analyst productivity tool rather than a replacement, augmenting routine financial analysis while human expertise remains critical for nuanced investment decisions.
 
+#### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
+*Research project for 15.437 Options & Futures, MIT.*
+
+We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in liquid Treasury markets.
+
 #### Other Projects
 
 #### Predicting Stock Price Movements from Social Media Sentiment
@@ -120,11 +125,6 @@ We develop a quarterly sliding-window linear regression framework to predict for
 *Research project for ECON 573 Machine Learning/Econometrics, UNC Chapel Hill.*
 
 We compare four supervised regression methods for predicting Airbnb listing prices across major U.S. cities: forward selection, LASSO, polynomial regression, and gradient boosting. Boosting achieves the lowest test RMSE (85.11), outperforming linear methods by approximately 15%. A robust feature selection process across all models identifies maximum occupancy indicators (bathrooms, accommodates) and geographic features (latitude, longitude, city) as the most significant predictors of listing price.
-
-#### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
-*Research project for 15.437 Options & Futures, MIT.*
-
-We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in liquid Treasury markets.
 
 #### Review Helpfulness Classification via LLM Fine-Tuning
 With C. Arraya, L.H. Cham, I. Sparrow, L. Yang, and T. Zhang
@@ -149,12 +149,12 @@ We compare five classifiers (logistic regression, Naive Bayes, KNN, decision tre
 	- [(3) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf) 
 	- [(4) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
 	- [(5) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
+	- [(6) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
 - Other projects:
         [(1) Predicting Stock Price Movements from Social Media Sentiment](https://nicwong.com/assets/files/HODL_report.pdf)
         · [(2) Multi-Factor Growth Stock Selection](https://nicwong.com/assets/files/AlphaGrowth__Identifying_Winning_Growth_Stocks.pdf)
-        · [(3) Airbnb Price Prediction](https://nicwong.com/assets/files/Nicholas_Wong_ECON573_FinalReport.pdf)
-        · [(4) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
-        · [(5) Airbnb Review Helpfulness Classification via LLM Fine-Tuning (Deck)](https://nicwong.com/assets/files/488_Final_Presentation.pdf)
-        · [(6) Diabetes Classification with Limited Feature Sets](https://nicwong.com/assets/files/COMP562H_Nicholas_Hannes_Final_Report.pdf)
+        · [(3) Review Helpfulness Classification via LLM Fine-Tuning (Deck)](https://nicwong.com/assets/files/488_Final_Presentation.pdf)
+        · [(4) Diabetes Classification with Limited Feature Sets](https://nicwong.com/assets/files/COMP562H_Nicholas_Hannes_Final_Report.pdf)
+	· [(5) Airbnb Price Prediction](https://nicwong.com/assets/files/Nicholas_Wong_ECON573_FinalReport.pdf)
 - News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/)
