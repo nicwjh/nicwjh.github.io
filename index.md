@@ -121,10 +121,6 @@ With C. Sun, H. Zhang, and M. Goyal
 
 We develop a quarterly sliding-window linear regression framework to predict forward 12-month returns for Russell 1000 Growth Index constituents using five growth-oriented factors. Top-decile portfolios constructed from predicted returns achieve a 71.4% hit ratio and 2.14% annualized excess return over the benchmark. A long-short extension improves performance to a 0.61 Sharpe ratio and 80% hit ratio. Debt-to-Equity and Price-to-Book are identified as the most consistently significant predictors.
 
-#### Airbnb Price Prediction
-*Research project for ECON 573 Machine Learning/Econometrics, UNC Chapel Hill.*
-
-We compare four supervised regression methods for predicting Airbnb listing prices across major U.S. cities: forward selection, LASSO, polynomial regression, and gradient boosting. Boosting achieves the lowest test RMSE (85.11), outperforming linear methods by approximately 15%. A robust feature selection process across all models identifies maximum occupancy indicators (bathrooms, accommodates) and geographic features (latitude, longitude, city) as the most significant predictors of listing price.
 
 #### Review Helpfulness Classification via LLM Fine-Tuning
 With C. Arraya, L.H. Cham, I. Sparrow, L. Yang, and T. Zhang
@@ -132,6 +128,11 @@ With C. Arraya, L.H. Cham, I. Sparrow, L. Yang, and T. Zhang
 *Research project for COMP 488 Data Science in Business, UNC.*       
 
 We fine-tune RoBERTa-base to classify Airbnb reviews into three helpfulness tiers (A/B/C) based on specificity, decision-making advice, and reviewer expertise. Training labels are generated synthetically using GPT-4 Turbo on 4,500 scraped reviews, while the test set of 500 reviews is manually labeled by majority vote. The fine-tuned classifier achieves 64.6% accuracy and 0.59 F1 on the human-labeled test set, with the strongest precision on least-helpful reviews and the weakest recall on most-helpful reviews.
+
+#### Airbnb Price Prediction
+*Research project for ECON 573 Machine Learning/Econometrics, UNC Chapel Hill.*
+
+We compare four supervised regression methods for predicting Airbnb listing prices across major U.S. cities: forward selection, LASSO, polynomial regression, and gradient boosting. Boosting achieves the lowest test RMSE (85.11), outperforming linear methods by approximately 15%. A robust feature selection process across all models identifies maximum occupancy indicators (bathrooms, accommodates) and geographic features (latitude, longitude, city) as the most significant predictors of listing price.
 
 #### Diabetes Classification with Limited Feature Sets
 With H. Brinklert
