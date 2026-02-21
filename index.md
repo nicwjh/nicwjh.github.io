@@ -129,7 +129,7 @@ With C. Arraya, L.H. Cham, I. Sparrow, L. Yang, and T. Zhang
 
 We fine-tune RoBERTa-base to classify Airbnb reviews into three helpfulness tiers (A/B/C) based on specificity, decision-making advice, and reviewer expertise. Training labels are generated synthetically using GPT-4 Turbo on 4,500 scraped reviews, while the test set of 500 reviews is manually labeled by majority vote. The fine-tuned classifier achieves 64.6% accuracy and 0.59 F1 on the human-labeled test set, with the strongest precision on least-helpful reviews and the weakest recall on most-helpful reviews.
 
-#### Airbnb Price Prediction
+<!--	#### Airbnb Price Prediction
 *Research project for ECON 573 Machine Learning/Econometrics, UNC Chapel Hill.*
 
 We compare four supervised regression methods for predicting Airbnb listing prices across major U.S. cities: forward selection, LASSO, polynomial regression, and gradient boosting. Boosting achieves the lowest test RMSE (85.11), outperforming linear methods by approximately 15%. A robust feature selection process across all models identifies maximum occupancy indicators (bathrooms, accommodates) and geographic features (latitude, longitude, city) as the most significant predictors of listing price.
@@ -139,7 +139,7 @@ With H. Brinklert
 
 *Research project for COMP 562 Honors Machine Learning, UNC Chapel Hill.*
 
-We compare five classifiers (logistic regression, Naive Bayes, KNN, decision trees, SVM) for binary diabetes classification using both a full 21-feature set and a reduced 7-feature subset identified through LASSO, sequential selection, and domain knowledge. Models with fewer features achieve comparable performance to full-feature models across all classifiers. Naive Bayes and SVM perform best with limited inputs, while decision trees show signs of overfitting with the full feature set, achieving better results with fewer predictors.
+We compare five classifiers (logistic regression, Naive Bayes, KNN, decision trees, SVM) for binary diabetes classification using both a full 21-feature set and a reduced 7-feature subset identified through LASSO, sequential selection, and domain knowledge. Models with fewer features achieve comparable performance to full-feature models across all classifiers. Naive Bayes and SVM perform best with limited inputs, while decision trees show signs of overfitting with the full feature set, achieving better results with fewer predictors. -->
 
 
 ## Other Links
