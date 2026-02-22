@@ -68,6 +68,8 @@ With Y. Pan, X. Fang, and C. Saad
 
 *Poster:* [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
 
+*Paper:* [LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
+
 _Abstract:_  
 This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
 
@@ -147,10 +149,11 @@ We compare five classifiers (logistic regression, Naive Bayes, KNN, decision tre
 - Sample research papers:
 	- [(1) Double Descent in Financial Time Series](https://nicwong.com/assets/files/DDiFTS_v1.pdf) 
 	- [(2) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
-	- [(3) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf) 
-	- [(4) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
-	- [(5) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
-	- [(6) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
+	- [(3) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf)
+	- [(4) LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf) 
+	- [(5) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
+	- [(6) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
+	- [(7) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
 - Other projects:
         · [(1) Multi-Factor Growth Stock Selection](https://nicwong.com/assets/files/AlphaGrowth__Identifying_Winning_Growth_Stocks.pdf)
