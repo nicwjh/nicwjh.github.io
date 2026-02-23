@@ -48,6 +48,20 @@ Using daily equity data from November 2023 to November 2024, the optimized portf
 
 The results illustrate how modern machine learning forecasts can be systematically integrated with classical portfolio theory to improve risk-adjusted returns, and how sparsity constraints help address overfitting, high dimensionality, and investor preferences for concentrated portfolios.
 
+#### Large Language Models in Equity Research
+With Y. Pan, X. Fang, and C. Saad
+
+*Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
+
+*Poster:* [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
+
+*Paper:* [LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
+
+_Abstract:_
+This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
+
+While LLMs alone do not consistently outperform simple benchmarks in predicting earnings changes, their outputs contain complementary information. When LLM-generated signals and embeddings are combined with financial statement data in downstream machine learning models, predictive performance improves and leads to economically meaningful portfolio results. Long-only portfolios formed using LLM-enhanced signals achieve higher alpha and information ratios than portfolios based on traditional factors or analyst forecasts. The findings suggest that LLMs add value by providing economic context and structure to raw accounting data, improving generalization in out-of-sample equity prediction tasks.
+
 #### Macroeconomic Forecasting of Non-Farm Payrolls
 
 *Macro Research Intern, Verition Fund Management. Supervised by Nisarg Kamdar (Portfolio Manager, Fixed Income & Macro).*
@@ -60,20 +74,6 @@ _Abstract:_
 This project develops a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll (NFP) Total Change, a high-impact macroeconomic release central to rates and macro trading. Using historical economist forecasts, I construct ensemble point forecasts and calibrated predictive distributions designed for trading and risk management rather than purely statistical accuracy.
 
 The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
-
-#### Large Language Models in Equity Research
-With Y. Pan, X. Fang, and C. Saad
-
-*Joint Research Project (PanAgora Asset Management, MIT Sloan Finance Lab). Supervised by Dr. Gita Rao and Dr. Bhushan Vartak (MIT).*
-
-*Poster:* [LLMs in Equity Research](https://nicwong.com/assets/files/panagora_poster.pdf)
-
-*Paper:* [LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
-
-_Abstract:_  
-This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
-
-While LLMs alone do not consistently outperform simple benchmarks in predicting earnings changes, their outputs contain complementary information. When LLM-generated signals and embeddings are combined with financial statement data in downstream machine learning models, predictive performance improves and leads to economically meaningful portfolio results. Long-only portfolios formed using LLM-enhanced signals achieve higher alpha and information ratios than portfolios based on traditional factors or analyst forecasts. The findings suggest that LLMs add value by providing economic context and structure to raw accounting data, improving generalization in out-of-sample equity prediction tasks. 
 
 
 #### Regulatory Response to the SVB Collapse: A Natural Language Processing Analysis
@@ -92,6 +92,8 @@ We apply three complementary NLP approaches: a naive keyword-based baseline, TF�
 
 #### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
 *Research project for 15.437 Options & Futures, MIT.*
+
+
 *Paper:* [Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
 
 We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and 
