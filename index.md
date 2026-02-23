@@ -156,8 +156,8 @@ We compare five classifiers (logistic regression, Naive Bayes, KNN, decision tre
 - Sample research papers:
 	- [(1) Double Descent in Financial Time Series](https://nicwong.com/assets/files/DDiFTS_v1.pdf) 
 	- [(2) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
-	- [(3) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf)
-	- [(4) LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf) 
+	- [(3) LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
+	- [(4) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf)
 	- [(5) SVB Collapse—NLP Analysis](https://nicwong.com/assets/files/NLP_SVBcollapse.pdf)
 	- [(6) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
 	- [(7) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
