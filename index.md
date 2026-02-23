@@ -90,6 +90,15 @@ This project studies how U.S. banking regulatory priorities shifted following th
 
 We apply three complementary NLP approaches: a naive keyword-based baseline, TF–IDF weighting, and BERTopic topic modeling. Across all methods, we find consistent evidence of a post-SVB pivot toward liquidity management, capital requirements, valuation practices, and systemic risk oversight. Topic models reveal a shift from broader regulatory themes pre-SVB to more concentrated attention on risk management, resolution frameworks, and financial stability post-SVB. The results provide empirical evidence that major financial crises are followed by measurable and systematic changes in regulatory discourse, and demonstrate how modern NLP tools can be used to study policy responses to financial instability at scale.
 
+#### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
+*Research project for 15.437 Options & Futures, MIT.*
+*Paper:* [Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
+
+We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and 
+a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in
+ liquid Treasury markets.
+
+
 #### Artificial Intelligence for Financial Analysis
 With C. Shan, A. Wakrim, M. Walcher, D. Xiang, I. Xiao, J. Xu, and R. Yamahara.
 
@@ -102,10 +111,6 @@ We study whether modern generative AI models can perform analyst-level equity re
 
 Results show that richer inputs and structured prompting substantially improve report quality, including financial summaries, valuation, and investment recommendations. However, AI outputs still lack analytical depth, consistency, and contextual judgment relative to human analysts, especially for complex, diversified firms. The findings suggest that generative AI is best used as an analyst productivity tool rather than a replacement, augmenting routine financial analysis while human expertise remains critical for nuanced investment decisions.
 
-#### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
-*Research project for 15.437 Options & Futures, MIT.*
-
-We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in liquid Treasury markets.
 
 #### Other Projects
 
