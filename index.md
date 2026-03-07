@@ -1,5 +1,6 @@
 ---
 layout: homepage
+noindex: true
 ---
 
 ## About Me
