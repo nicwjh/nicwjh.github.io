@@ -94,9 +94,9 @@ We apply three complementary NLP approaches: a naive keyword-based baseline, TFâ
 #### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
 *Research project for 15.437 Options & Futures, MIT.*
 
-
+<!--
 *Paper:* [Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
-
+-->
 We test whether weekly Managed-Money positions from CFTC Commitments of Traders reports predict one- to two-week returns on 2-year and 10-year U.S. Treasury futures over 2011 to 2025. Using publication-lagged signals, HAC-corrected predictive regressions, expanding-window out-of-sample evaluation, and 
 a sign-based trading backtest, we find no statistical or economic forecasting power. Out-of-sample R-squared values are negative across all specifications and Sharpe ratios are indistinguishable from zero, consistent with the view that public position disclosures are rapidly incorporated into prices in
  liquid Treasury markets.
@@ -107,8 +107,9 @@ With C. Shan, A. Wakrim, M. Walcher, D. Xiang, I. Xiao, J. Xu, and R. Yamahara.
 
 
 *Joint Research Project (T. Rowe Price, MIT Sloan Proseminar in Capital Markets). Supervised by Mark Kritzman (MIT) and SÃ©bastien Page (T. Rowe Price).*  
+<!--
 *Deck:* [Artificial Intelligence for Financial Analysis](http://nicwong.com/assets/files/T-Rowe-Final-Deck.pdf)
-
+-->
 _Abstract:_  
 We study whether modern generative AI models can perform analyst-level equity research. Using Microsoft and Chipotle as representative case studies (diversified, multi-segment vs pure-play, single business), we design a three-layer evaluation framework that progressively increases data quality and prompting sophistication, and compare AI-generated reports to professional analyst outputs.
 
