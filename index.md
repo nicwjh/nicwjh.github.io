@@ -94,6 +94,8 @@ This project studies how U.S. banking regulatory priorities shifted following th
 
 We apply three complementary NLP approaches: a naive keyword-based baseline, TF–IDF weighting, and BERTopic topic modeling. Across all methods, we find consistent evidence of a post-SVB pivot toward liquidity management, capital requirements, valuation practices, and systemic risk oversight. Topic models reveal a shift from broader regulatory themes pre-SVB to more concentrated attention on risk management, resolution frameworks, and financial stability post-SVB. The results provide empirical evidence that major financial crises are followed by measurable and systematic changes in regulatory discourse, and demonstrate how modern NLP tools can be used to study policy responses to financial instability at scale.
 
+<!--
+
 #### Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns
 *Research project for 15.437 Options & Futures, MIT.*
 
@@ -155,7 +157,7 @@ With H. Brinklert
 *Research project for COMP 562 Honors Machine Learning, UNC Chapel Hill.*
 
 We compare five classifiers (logistic regression, Naive Bayes, KNN, decision trees, SVM) for binary diabetes classification using both a full 21-feature set and a reduced 7-feature subset identified through LASSO, sequential selection, and domain knowledge. Models with fewer features achieve comparable performance to full-feature models across all classifiers. Naive Bayes and SVM perform best with limited inputs, while decision trees show signs of overfitting with the full feature set, achieving better results with fewer predictors. -->
-
+-->
 
 ## Other Links
 
