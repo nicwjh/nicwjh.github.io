@@ -28,7 +28,7 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.
 *Paper:* [Double Descent](https://nicwong.com/assets/files/DDiFTS_v1.pdf)
 
 _Abstract:_  
-Modern deep learning models often exhibit double descent, where test error worsens near the interpolation threshold but improves again in the overparameterized regime. While this phenomenon is well documented in high-signal domains such as vision and language, its relevance for financial time series, which are noisy and non-stationary, remains unclear. This project studies whether the benefits of overparameterization extend to low signal-to-noise environments.
+Modern deep learning models often exhibit double descent, where test error worsens near the interpolation threshold but improves again in the overparameterized regime. While this phenomenon is well documented in high-signal domains such as vision and language, its relevance for financial time series, which are noisy and non-stationary, remains unclear. We study whether the benefits of overparameterization extend to low signal-to-noise environments.
 
 The results show that double descent requires sufficiently strong and stable signal: as noise increases, the interpolation peak attenuates and eventually disappears, and simpler models dominate. In equity return prediction, test error curves are nearly flat across four orders of magnitude in model size, and no configuration outperforms a naive mean benchmark. These findings provide empirical evidence that modern “bigger is better” intuitions do not generalize to low-signal, non-stationary settings and that classical model selection remains essential in financial forecasting.
 
@@ -43,7 +43,7 @@ The results show that double descent requires sufficiently strong and stable sig
 *Paper:*[Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 
 _Abstract:_  
-This project proposes a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
+We propose a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
 
 Using daily equity data from November 2023 to November 2024, the optimized portfolio achieves substantially higher risk-adjusted performance than a market-capitalization-weighted NASDAQ-100 benchmark. While the benchmark delivers higher absolute returns during the sample period, the optimized portfolio exhibits significantly lower volatility and a Sharpe ratio of 2.23, representing roughly a 40% improvement over the benchmark. Forecasting results highlight the robustness of simple and non-parametric methods while ensembling mitigates model-specific bias.
 
@@ -59,7 +59,7 @@ With Y. Pan, X. Fang, and C. Saad
 *Paper:* [LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
 
 _Abstract:_
-This project studies whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
+We study whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
 
 While LLMs alone do not consistently outperform simple benchmarks in predicting earnings changes, their outputs contain complementary information. When LLM-generated signals and embeddings are combined with financial statement data in downstream machine learning models, predictive performance improves and leads to economically meaningful portfolio results. Long-only portfolios formed using LLM-enhanced signals achieve higher alpha and information ratios than portfolios based on traditional factors or analyst forecasts. The findings suggest that LLMs add value by providing economic context and structure to raw accounting data, improving generalization in out-of-sample equity prediction tasks.
 
@@ -72,7 +72,7 @@ While LLMs alone do not consistently outperform simple benchmarks in predicting 
 -->
 
 _Abstract:_  
-This project develops a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll (NFP) Total Change, a high-impact macroeconomic release central to rates and macro trading. Using historical economist forecasts, I construct ensemble point forecasts and calibrated predictive distributions designed for trading and risk management rather than purely statistical accuracy.
+We develop a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll (NFP) Total Change, a high-impact macroeconomic release central to rates and macro trading. Using historical economist forecasts, I construct ensemble point forecasts and calibrated predictive distributions designed for trading and risk management rather than purely statistical accuracy.
 
 The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
 
