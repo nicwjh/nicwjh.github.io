@@ -163,8 +163,8 @@ We compare five classifiers (logistic regression, Naive Bayes, KNN, decision tre
 	- [(6) Artificial Intelligence for Financial Analysis](https://nicwong.com/assets/files/T-Rowe-Final-Report.pdf)
 	- [(7) Evaluating CFTC COT Data as a Predictor of Treasury-Futures Returns](https://nicwong.com/assets/files/Options_Extra_Credit.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
-<!--
-- Other projects:
+
+<!-- Other projects:
         · [(1) Multi-Factor Growth Stock Selection](https://nicwong.com/assets/files/AlphaGrowth__Identifying_Winning_Growth_Stocks.pdf)
 	· [(2) Predicting Stock Price Movements from Social Media Sentiment](https://nicwong.com/assets/files/HODL_report.pdf)
         · [(3) Review Helpfulness Classification via LLM Fine-Tuning (Deck)](https://nicwong.com/assets/files/488_Final_Presentation.pdf)
