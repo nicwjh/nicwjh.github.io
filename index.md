@@ -104,7 +104,5 @@ Results show that richer inputs and structured prompting substantially improve r
 	- [(2) LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
 	- [(3) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 	- [(4) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf)
-
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
-
 - News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/)
