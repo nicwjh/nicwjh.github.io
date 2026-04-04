@@ -68,6 +68,8 @@ The results illustrate how modern machine learning forecasts can be systematical
 *Macro Research Intern, Verition Fund Management. Supervised by Nisarg Kamdar (Portfolio Manager, Fixed Income & Macro).*
 
 _Abstract:_
+We develop a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll (NFP) Total Change, a high-impact macroeconomic release central to rates and macro trading. Using historical economist forecasts, I construct ensemble point forecasts and calibrated predictive distributions designed for trading and risk management rather than purely statistical accuracy.
+
 The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
 
 
