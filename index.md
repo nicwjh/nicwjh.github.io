@@ -25,9 +25,7 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.
 *Paper:* [Double Descent](https://nicwong.com/assets/files/DDiFTS_v1.pdf)
 
 _Abstract:_  
-Modern deep learning models often exhibit double descent, where test error worsens near the interpolation threshold but improves again in the overparameterized regime. While this phenomenon is well documented in high-signal domains such as vision and language, its relevance for financial time series, which are noisy and non-stationary, remains unclear. We study whether the benefits of overparameterization extend to low signal-to-noise environments.
-
-The results show that double descent requires sufficiently strong and stable signal: as noise increases, the interpolation peak attenuates and eventually disappears, and simpler models dominate. In equity return prediction, test error curves are nearly flat across four orders of magnitude in model size, and no configuration outperforms a naive mean benchmark. These findings provide empirical evidence that modern “bigger is better” intuitions do not generalize to low-signal, non-stationary settings and that classical model selection remains essential in financial forecasting.
+Modern deep learning models often exhibit double descent, where test error worsens near the interpolation threshold but improves again with overparameterization. We examine whether this behavior extends to financial time series, which are noisy and non-stationary. The interpolation peak attenuates and eventually disappears as noise rises, and in equity return prediction test error is nearly flat across four orders of magnitude in model size, with no configuration beating a naive mean benchmark. The results suggest that "bigger is better" intuitions from vision and language do not generalize to low-signal settings, and that classical model selection remains essential in financial forecasting.
 
 
 #### Large Language Models in Equity Research
@@ -40,27 +38,18 @@ With Y. Pan, X. Fang, and C. Saad
 *Paper:* [LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
 
 _Abstract:_
-We study whether large language models can extract useful information from financial statements for fundamental equity research. Using anonymized balance sheet and income statement data, we prompt LLMs to perform trend analysis, ratio analysis, and to predict the direction and magnitude of future earnings changes. We compare LLM-based predictions to human analyst forecasts and to standard ML (XGBoost).
-
-While LLMs alone do not consistently outperform simple benchmarks in predicting earnings changes, their outputs contain complementary information. When LLM-generated signals and embeddings are combined with financial statement data in downstream machine learning models, predictive performance improves and leads to economically meaningful portfolio results. Long-only portfolios formed using LLM-enhanced signals achieve higher alpha and information ratios than portfolios based on traditional factors or analyst forecasts. The findings suggest that LLMs add value by providing economic context and structure to raw accounting data, improving generalization in out-of-sample equity prediction tasks.
+We test whether large language models can extract useful information from financial statements for fundamental equity research. On their own, LLMs do not consistently outperform simple benchmarks at predicting earnings changes. However, combining LLM-generated signals and embeddings with financial statement data in downstream ML models improves predictive performance, and long-only portfolios formed from these signals achieve higher alpha and information ratios than portfolios based on traditional factors or analyst forecasts. LLMs appear to add value by providing economic context and structure to raw accounting data, improving out-of-sample generalization.
 
 
 
 #### Portfolio Optimization
 
 *Research project conducted at Harvard University, supervised by Dr. Soroush Saghafian (HKS).*
-<!--
-*Code:* [GitHub – Portfolio Optimization](https://github.com/nicwjh/Portfolio-Optimization)
--->
 
 *Paper:*[Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
 
 _Abstract:_
-We propose a machine learning–based portfolio construction framework that integrates ensemble return forecasting with sparsified mean–variance optimization. I combine four supervised forecasting methods—Weighted Moving Average (WMA), Principal Components Regression (PCR), Random Forests, and Gated Recurrent Unit (GRU) networks—to predict returns for NASDAQ-100 constituents. Predicted returns are then aggregated and fed into a Markowitz mean–variance optimization problem with an L1 penalty to induce sparse, interpretable portfolio weights.
-
-Using daily equity data from November 2023 to November 2024, the optimized portfolio achieves substantially higher risk-adjusted performance than a market-capitalization-weighted NASDAQ-100 benchmark. While the benchmark delivers higher absolute returns during the sample period, the optimized portfolio exhibits significantly lower volatility and a Sharpe ratio of 2.23, representing roughly a 40% improvement over the benchmark. Forecasting results highlight the robustness of simple and non-parametric methods while ensembling mitigates model-specific bias.
-
-The results illustrate how modern machine learning forecasts can be systematically integrated with classical portfolio theory to improve risk-adjusted returns, and how sparsity constraints help address overfitting, high dimensionality, and investor preferences for concentrated portfolios.
+We propose a portfolio construction framework that combines ensemble return forecasts with L1-penalized mean-variance optimization. Four supervised methods (WMA, PCR, Random Forests, GRU) forecast returns for NASDAQ-100 constituents, and predictions feed into a sparsified Markowitz problem. On daily data from November 2023 to November 2024, the optimized portfolio achieves a Sharpe ratio of 2.23, roughly a 40% improvement over the market-cap-weighted benchmark, with substantially lower volatility. The results illustrate how machine learning forecasts can be integrated with classical portfolio theory, and how sparsity constraints help address overfitting, high dimensionality, and investor preferences for concentrated portfolios.
 
 
 #### Macroeconomic Forecasting of Non-Farm Payrolls
@@ -68,9 +57,7 @@ The results illustrate how modern machine learning forecasts can be systematical
 *Macro Research Intern, Verition Fund Management. Supervised by Nisarg Kamdar (Portfolio Manager, Fixed Income & Macro).*
 
 _Abstract:_
-We develop a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll (NFP) Total Change, a high-impact macroeconomic release central to rates and macro trading. Using historical economist forecasts, I construct ensemble point forecasts and calibrated predictive distributions designed for trading and risk management rather than purely statistical accuracy.
-
-The approach combines adaptive forecast-combination methods—including inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging—with distributional modeling using Student-t, Gaussian mixture, and t-GARCH specifications. Empirically, ensemble forecasts improve directional accuracy relative to consensus, while uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the importance of robust aggregation and explicit uncertainty quantification in non-stationary macroeconomic environments and provide a generalizable framework for forecasting and risk management around scheduled macro events.
+We develop a fully out-of-sample forecasting framework for U.S. Non-Farm Payroll Total Change, designed for trading and risk management rather than statistical accuracy alone. The approach combines adaptive forecast-combination methods (inverse-error weighting, exponentially weighted schemes, multiplicative weights updates, and Bayesian model averaging) with distributional modeling via Student-t, Gaussian mixture, and t-GARCH specifications. Ensemble forecasts improve directional accuracy relative to consensus, and uncertainty-aware models deliver well-calibrated prediction intervals across business-cycle regimes. The results highlight the value of robust aggregation and explicit uncertainty quantification around scheduled macro events.
 
 
 #### Regulatory Response to the SVB Collapse: A Natural Language Processing Analysis
@@ -80,9 +67,7 @@ With [P. Clark](https://priscillaoclark.github.io/)
 
 
 _Abstract:_  
-This project studies how U.S. banking regulatory priorities shifted following the 2023 collapse of Silicon Valley Bank (SVB). We test the hypothesis that regulatory focus intensified around liquidity, capital adequacy, and the oversight of small and mid-sized banks in the aftermath of the crisis. Using regulatory documents from Regulations.gov, we analyze proposed and finalized rules issued by major financial regulators in the 18 months before and after the collapse.
-
-We apply three complementary NLP approaches: a naive keyword-based baseline, TF–IDF weighting, and BERTopic topic modeling. Across all methods, we find consistent evidence of a post-SVB pivot toward liquidity management, capital requirements, valuation practices, and systemic risk oversight. Topic models reveal a shift from broader regulatory themes pre-SVB to more concentrated attention on risk management, resolution frameworks, and financial stability post-SVB. The results provide empirical evidence that major financial crises are followed by measurable and systematic changes in regulatory discourse, and demonstrate how modern NLP tools can be used to study policy responses to financial instability at scale.
+We study how U.S. banking regulatory priorities shifted following the 2023 collapse of Silicon Valley Bank. Using regulatory documents from Regulations.gov in the 18 months before and after the collapse, we apply three complementary NLP methods: a keyword baseline, TF-IDF weighting, and BERTopic topic modeling. All three show consistent evidence of a post-SVB pivot toward liquidity management, capital requirements, and systemic risk oversight, with topic models revealing a shift from broad regulatory themes to concentrated attention on risk management and financial stability. The work provides empirical evidence that major financial crises are followed by measurable changes in regulatory discourse.
 
 
 #### Artificial Intelligence for Financial Analysis
@@ -92,17 +77,15 @@ With C. Shan, A. Wakrim, M. Walcher, D. Xiang, I. Xiao, J. Xu, and R. Yamahara.
 *Joint Research Project (T. Rowe Price, MIT Sloan Proseminar in Capital Markets). Supervised by Mark Kritzman (MIT) and Sébastien Page (T. Rowe Price).*  
 
 _Abstract:_  
-We study whether modern generative AI models can perform analyst-level equity research. Using Microsoft and Chipotle as representative case studies (diversified, multi-segment vs pure-play, single business), we design a three-layer evaluation framework that progressively increases data quality and prompting sophistication, and compare AI-generated reports to professional analyst outputs.
-
-Results show that richer inputs and structured prompting substantially improve report quality, including financial summaries, valuation, and investment recommendations. However, AI outputs still lack analytical depth, consistency, and contextual judgment relative to human analysts, especially for complex, diversified firms. The findings suggest that generative AI is best used as an analyst productivity tool rather than a replacement, augmenting routine financial analysis while human expertise remains critical for nuanced investment decisions.
+We evaluate whether generative AI can perform analyst-level equity research, using Microsoft and Chipotle as representative case studies for diversified and pure-play businesses. A three-layer evaluation framework progressively increases data quality and prompting sophistication, and compares AI-generated reports to professional analyst outputs. Richer inputs and structured prompting substantially improve financial summaries, valuation, and recommendations, but AI outputs still lack the analytical depth and contextual judgment of human analysts, particularly for complex firms. Generative AI is best positioned as an analyst productivity tool rather than a replacement.
 
 
 ## Other Links
 
 - Sample research papers:
-	- [(1) Double Descent in Financial Time Series](https://nicwong.com/assets/files/DDiFTS_v1.pdf) 
-	- [(2) LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
-	- [(3) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
-	- [(4) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf)
+        - [(1) Double Descent in Financial Time Series](https://nicwong.com/assets/files/DDiFTS_v1.pdf) 
+        - [(2) LLMs in Equity Research](https://nicwong.com/assets/files/llms_equity_research.pdf)
+        - [(3) Portfolio Optimization](https://nicwong.com/assets/files/Portfolio_Optimization.pdf)
+        - [(4) NFP Forecasting](https://nicwong.com/assets/files/nfp-forecasting.pdf)
 - Economics writing sample (DiD/RD causal identification study): [Effectiveness of a Managerial Training Program](https://nicwong.com/assets/files/Wong_Nicholas_Report.pdf)
 - News: [Phi Beta Kappa Induction](https://uncnews.unc.edu/2023/04/06/219-students-inducted-into-phi-beta-kappa-at-unc-chapel-hill/)
