@@ -13,7 +13,7 @@ Previously, I graduated from UNC Chapel Hill with a B.S. in Computer Science, B.
 
 I'm broadly interested in computational methods, statistical inference, optimization, and machine learning, with applications to financial and economic systems.
 
-- **Primary:** household finance, asset pricing, market microstructure 
+- **Primary:** household finance, asset pricing, market microstructure, macroeconomics
 
 ## Research
 
