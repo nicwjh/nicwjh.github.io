@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a research fellow at Stanford Graduate School of Business, where I work with Tim de Silva.
+I am a research fellow at Stanford's Graduate School of Business, where I work with Tim de Silva.
 
 I am broadly interested in computational and statistical methods for problems in economics and finance, spanning causal inference, statistical learning, optimization, and forecasting.
 
-Previously, I earned a Master of Finance from MIT Sloan and a B.S. in Computer Science and a B.S. in Economics from UNC Chapel Hill.
+Previously, I earned my master's degree from MIT after completing undergraduate studies in Computer Science and Economics at UNC Chapel Hill.
