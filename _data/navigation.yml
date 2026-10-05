@@ -1,0 +1,13 @@
+# Header links, in display order. Remove an entry to hide a tab.
+main:
+  - title: "Research"
+    url: /research/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "CV"
+    url: /cv/
