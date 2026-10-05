@@ -46,3 +46,5 @@ The old site (Minimal Light theme) is archived in git history before the migrati
 3. Commit with a short imperative message (e.g. `Add LLM equity research entry`) and push to `main`. GitHub Pages redeploys in about a minute.
 
 Do not open pull requests against the upstream academicpages repo. Do not edit `_layouts/`, `_includes/`, or `_sass/` unless explicitly asked for a design change.
+
+Commits are authored by Nicholas Wong alone. Never add a `Co-Authored-By` trailer or any other AI attribution line to commit messages or pull request descriptions.
