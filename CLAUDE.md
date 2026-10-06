@@ -9,7 +9,7 @@ Personal academic website for Nicholas Wong, built on the [Academic Pages](https
 | Site name, sidebar bio, avatar, social links | `_config.yml` (`author:` block) |
 | Header tabs | `_data/navigation.yml` |
 | Home page / About | `_pages/about.md` |
-| Research tab | `_pages/publications.html` (renders `_publications/*.md`, grouped by `category`) |
+| Research tab | `_pages/publications.html` (renders `_publications/*.md` via `_includes/research-entry.html`, grouped by `category`) |
 | Teaching tab | `_pages/teaching.html` (renders `_teaching/*.md`) |
 | Blog tab | `_pages/year-archive.html` (renders `_posts/*.md`) |
 | CV tab | `_pages/cv.md`, PDF at `files/cv.pdf` |
@@ -17,7 +17,7 @@ Personal academic website for Nicholas Wong, built on the [Academic Pages](https
 | Avatar | `images/profile.png` |
 | PDFs and other downloads | `files/` (served at `https://nicwong.com/files/<name>`) |
 
-Research categories are defined in `_config.yml` under `publication_category` (`working`, `projects`). Every `_publications` entry needs a `category:` matching one of those keys or it will not show.
+Research categories are defined in `_config.yml` under `publication_category`, in display order: `working` (Working Papers), `wip` (Work in Progress), `projects` (Selected Projects). Every `_publications` entry needs a `category:` matching one of those keys or it will not show. Sections with no entries are hidden. The publications collection has `output: false`, so papers do not get their own pages.
 
 ## Writing style rules
 
@@ -27,7 +27,8 @@ Research categories are defined in `_config.yml` under `publication_category` (`
 
 ## Content conventions
 
-- `_publications/YYYY-MM-DD-slug.md` front matter: `title`, `collection: publications`, `category`, `permalink: /publication/YYYY-MM-DD-slug`, `excerpt`, `date`, `venue` (optional), `paperurl` (optional, e.g. `/files/paper.pdf`), `citation` (optional). Body holds the abstract.
+- `_publications/YYYY-MM-DD-slug.md` front matter: `title`, `collection: publications`, `category` (`working`, `wip`, or `projects`), `date`, `coauthors` (optional, markdown so names can be links, e.g. `'[Haoxiang Zhu](https://www.mit.edu/~zhuh/Zhu.html)'`; rendered as "with ..."), `status` (optional, italic line such as `"Draft coming soon"`), `paperurl` (optional, e.g. `/files/paper.pdf`; links the title). Body is the optional abstract; leave it empty for no abstract. No `permalink`, `excerpt`, `venue`, or `citation`.
+- A paper moves from `wip` to `working` only when the draft is made public. At that point, add `paperurl` and remove the `status` line.
 - `_posts/YYYY-MM-DD-slug.md` front matter: `title`, `date`, `permalink: /posts/YYYY/MM/slug/`, `tags`.
 - `_teaching/YYYY-term-slug.md` front matter: `title`, `collection: teaching`, `type`, `permalink: /teaching/YYYY-term-slug`, `venue`, `date`, `location`.
 - When an empty section gets its first entry, the "coming soon" placeholder disappears automatically.
@@ -35,7 +36,7 @@ Research categories are defined in `_config.yml` under `publication_category` (`
 ## Files carried over from the old site
 
 These PDFs are already in `files/` and can be linked from research entries:
-`DDiFTS_v1.pdf` (Double Descent in Financial Time Series), `llms_equity_research.pdf` and `panagora_poster.pdf` (LLMs in Equity Research), `Portfolio_Optimization.pdf`, `nfp-forecasting.pdf`, `NLP_SVBcollapse.pdf`, `T-Rowe-Final-Report.pdf` and `T-Rowe-Final-Deck.pdf` (AI for Financial Analysis), `Wong_Nicholas_Report.pdf` (managerial training program, DiD/RD writing sample), `treasury-liquidity.pdf`, plus older course reports.
+`DDiFTS_v1.pdf` (Double Descent in Financial Time Series), `llms_equity_research.pdf` and `panagora_poster.pdf` (LLMs in Equity Research), `Portfolio_Optimization.pdf`, `nfp-forecasting.pdf`, `NLP_SVBcollapse.pdf`, `T-Rowe-Final-Report.pdf` and `T-Rowe-Final-Deck.pdf` (AI for Financial Analysis), `Wong_Nicholas_Report.pdf` (managerial training program, DiD/RD writing sample), plus older course reports.
 
 The old site (Minimal Light theme) is archived in git history before the migration commit if original wording is needed.
 

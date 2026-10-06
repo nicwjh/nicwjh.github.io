@@ -86,6 +86,8 @@ author:
 publication_category:
   working:
     title: 'Working Papers'
+  wip:
+    title: 'Work in Progress'
   projects:
     title: 'Selected Projects'
 
@@ -227,7 +229,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true

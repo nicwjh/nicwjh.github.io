@@ -1,0 +1,25 @@
+{% assign abstract = post.content | strip %}
+
+<div class="list__item">
+  <article class="archive__item research-entry">
+    <h2 class="archive__item-title">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">{{ post.title }}</a>
+      {% else %}
+        {{ post.title }}
+      {% endif %}
+    </h2>
+
+    {% if post.coauthors %}
+      <p class="research-entry__coauthors">with {{ post.coauthors | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    {% endif %}
+
+    {% if post.status %}
+      <p class="research-entry__status"><em>{{ post.status }}</em></p>
+    {% endif %}
+
+    {% if abstract != "" %}
+      <div class="archive__item-excerpt">{{ abstract | markdownify }}</div>
+    {% endif %}
+  </article>
+</div>
